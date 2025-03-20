@@ -1,10 +1,8 @@
 FROM mariadb:10.5
 
-# Set environment variables (optional; these can also be set in docker-compose)
-ENV MYSQL_DATABASE=laravel
-ENV MYSQL_USER=laravel
-ENV MYSQL_PASSWORD=secret
+ENV MYSQL_DATABASE=laravel_ecommerce_app_db
+ENV MYSQL_USER=laravel_ecommerce_app_db_username
+ENV MYSQL_PASSWORD=gregs32afsdgsaAsfdsBEWawdP0w3qasf
 ENV MYSQL_ROOT_PASSWORD=root
 
-# Expose the default MariaDB port
 EXPOSE 3306
